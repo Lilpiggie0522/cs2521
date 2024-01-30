@@ -1,0 +1,14 @@
+Question 5
+
+(a) Describe and justify the steps you would take to determine which
+    sorting algorithm the program uses.
+
+Selection sort has a worst case time complexity of O(n^2), where as median of 3 is nlog(n),
+therefore, running the executable with input size of 10000 and then double the input size to 20000,
+selection sort will take roughly 4 times longer, and selection will roughly a bit more than double.
+
+(b) Is the sorting algorithm that the program uses stable? How confident
+    are you in your conclusion? Explain your answer.
+
+yes, stable, (2, 8), (2, 9), (2, 7) were the original order, and this order was reserved after sorting, same goes for other pairs.
+But this does not gurantee that it is stable. An unstable algorithm might provided this outcome sometimes.

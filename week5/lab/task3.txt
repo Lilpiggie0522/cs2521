@@ -1,0 +1,21 @@
++ Harry
++ Neville
++ Hermione
++ Luna
++ Ron
+f Neville Harry
+f Neville Hermione
+f Neville Ron
+f Harry Luna
+f Harry Ron
+f Harry Hermione
+f Hermione Ron
+f Hermione Luna
+m Harry Hermione
++ Draco
++ Vincent
++ Gregory
+f Draco Vincent
+f Draco Gregory
+f Vincent Gregory
+m Draco Vincent

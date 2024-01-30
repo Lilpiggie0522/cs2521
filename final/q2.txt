@@ -1,0 +1,8 @@
+Question 2
+
+Explain why the compilation error occurred and briefly describe how it
+can be fixed.
+
+Error occurred due to accessing Graph struct which is an adt that was defined in another file.
+To fix it, simply access edges using adt functions provided if there is any in graph.h interface file.
+

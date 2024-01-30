@@ -1,0 +1,22 @@
+Question 6
+
+Which of the data structures is most suitable? Justify your answer.
+You must use time complexities as a basis for your justification.
+
+push: OLL: O(n), array: O(n), avl: log(n), hash table: O(1), heap: log(n) 
+
+pop: OLL: O(1), array: O(1), avl: log(n), hash table: O(1), heap: log(n) 
+
+printInOrder: OLL: O(n), array: O(n), avl: nlog(n), hash table: O(n), heap: O(n)
+
+take hash table xxx wrong!!!
+
+Correct answer:
+
+ordered linked list and array takes O(n) to insert, dismiss.
+hashtable is fast but it cannot preserve the order of items, therefore dismiss.
+heap takes log(n) to insert and delete but for printing it does not maintain the global order,
+it only gurantees that the child nodes will be smaller than parent node, therefore to printInOrder,
+each item has to be popped and re-inserted, which takes nlog(n).
+
+only avl tree has insertion and deletion of log(n), and printing is O(n)

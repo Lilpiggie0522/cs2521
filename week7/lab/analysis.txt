@@ -1,0 +1,24 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of n, where n is the number of cells in the maze.
+
+============
+  solveBfs
+============
+
+- Worst case time complexity: O(V)
+
+- Explanation: Worst case time complexity is when all nodes are enqueued, which gives O(V), then all the operations are constant time, and only when MazeIsWall(m, v) is true, 
+predecessor array will be looped, which gives time complexity of O(V), therefore total time complexity is O(V) + 1 *(O(V)), which equates to O(V).
+
+============
+  solveDfs
+============
+
+- Worst case time complexity: O(V)
+
+- Explanation: ...
+Worst case time complexity for DFS is similar to BFS, when all nodes are pushed on to the stacks, which gives O(V) time complexity, all other operations are constant time, 
+such as checking bounds and checking visited, only when MazeVisit(m, v) is true, then predecessor array will be looped to find the path back to entrance, which has a time complexity
+of O(V), combining them together, O(V) + 1 * (O(V)) gives time complexity of O(V).

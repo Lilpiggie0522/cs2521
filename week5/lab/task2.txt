@@ -1,0 +1,12 @@
++ Harry
++ Sam
++ Ron
++ Hermione
+f Harry Ron
+f Ron Hermione
+f Ron Sam
+f Sam Harry
+f Sam Hermione
+u Harry Sam
+u Harry Ron
+n Harry

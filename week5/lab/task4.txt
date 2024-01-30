@@ -1,0 +1,21 @@
++ Harry
++ Mira
++ Gregory
++ Anton
++ Mihail
++ Ron
++ Hermione
+f Harry Ron
+f Harry Mihail
+f Harry Anton
+f Hermione Mihail
+f Hermione Anton
+f Gregory Anton
+f Ron Hermione
+f Mira Anton
+f Mira Mihail
+n Harry
+n Ron
+n Hermione
+m Harry Hermione
+r Harry

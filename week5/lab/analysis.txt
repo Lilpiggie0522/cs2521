@@ -1,0 +1,44 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of n, where n is the number of people who  have  been  added  to
+  Friendbook.
+
+===============
+ FbNumFriends
+===============
+
+- Worst case time complexity: O(V)
+
+- Explanation: one for loop to find the name index, which is V, then traverse thru list to find
+num of friends, which is another V, drop coefficient which is O(N).
+
+===============
+  FbUnfriend
+===============
+
+- Worst case time complexity: O(V)
+
+- Explanation: comes from freeing guys2. worst case is when guy2 is at the end of guy1's list
+and guy1 is at the end of guy2 list.
+
+===============
+FbMutualFriends
+===============
+
+- Worst case time complexity: O(V^2)
+
+- Explanation: loop thru guy1 list, initiate another loop while in guy1 list, so each element in guy1 list
+triggers anther loop that loops thru guys list. hence n^2
+
+===============
+ FbFriendRecs1
+===============
+
+- Worst case time complexity: O(v^3)
+
+- Explanation: bubble sort is already n^2 at least, and then check if a friend is already
+a friend in your list loops thru an array of friends that you have, that top num of friends
+you can have while still have a guy that shares mutual friends with you but not a friend of yours
+is n - 2, so that is v^2*(v-2) + v^2, which equates to v^3 for big O
+

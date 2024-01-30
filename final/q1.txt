@@ -1,0 +1,25 @@
+Question 1
+
+(a) What is the maximum input size that can be processed? Justify your
+    answer.
+
+2^10 = 1 day
+
+fast = 2^10 * 1000 = 1 day
+log2(2^10 * 1000) = 19.96
+
+
+(b) Which of the two algorithms is more efficient? Justify your answer.
+binary more efficient cuz size from n to n / 16 takes 6 comparions, however, binary takes 
+4 comparions which is n/2/2/2/2.
+
+
+(c) What are the time complexities of fnA() and fnB() in terms of a and
+    b? Justify your answer.
+
+time complexities of fnA() is b - a, since smallest a is 0, and it runs from 1 to b, therefore, it will be b - a times recursive function calls
+time complexities of fnB() is (b - a) * (b - a)
+
+
+
+

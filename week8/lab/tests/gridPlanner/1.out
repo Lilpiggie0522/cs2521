@@ -1,0 +1,64 @@
+i is 7
+Number of vertices: 8
+Number of edges: 28
+Edge 0 - 1: 180.000000
+Edge 0 - 2: 290.000000
+Edge 0 - 3: 476.000000
+Edge 0 - 4: 705.000000
+Edge 0 - 5: 806.000000
+Edge 0 - 6: 174.000000
+Edge 0 - 7: 62.000000
+Edge 1 - 2: 166.000000
+Edge 1 - 3: 452.000000
+Edge 1 - 4: 717.000000
+Edge 1 - 5: 681.000000
+Edge 1 - 6: 334.000000
+Edge 1 - 7: 117.000000
+Edge 2 - 3: 313.000000
+Edge 2 - 4: 588.000000
+Edge 2 - 5: 522.000000
+Edge 2 - 6: 385.000000
+Edge 2 - 7: 240.000000
+Edge 3 - 4: 275.000000
+Edge 3 - 5: 462.000000
+Edge 3 - 6: 446.000000
+Edge 3 - 7: 461.000000
+Edge 4 - 5: 590.000000
+Edge 4 - 6: 620.000000
+Edge 4 - 7: 705.000000
+Edge 5 - 6: 853.000000
+Edge 5 - 7: 761.000000
+Edge 6 - 7: 227.000000
+
+Number of vertices: 8
+Number of edges: 7
+Edge 0 - 6: 174.000000
+Edge 0 - 7: 62.000000
+Edge 1 - 2: 166.000000
+Edge 1 - 7: 117.000000
+Edge 2 - 3: 313.000000
+Edge 3 - 4: 275.000000
+Edge 3 - 5: 462.000000
+
+edge 0,6
+edge 0,7
+edge 1,2
+edge 1,7
+edge 2,3
+edge 3,4
+edge 3,5
+City Sydney at (870, 204)
+City Melbourne at (727, 94)
+City Adelaide at (581, 174)
+City Alice Springs at (474, 469)
+City Darwin at (406, 736)
+City Perth at (65, 254)
+City Brisbane at (910, 374)
+Power Plant Canberra at (821, 165)
+Power line between Sydney (870, 204) and Brisbane (910, 374)
+Power line between Sydney (870, 204) and Canberra (821, 165)
+Power line between Melbourne (727, 94) and Adelaide (581, 174)
+Power line between Melbourne (727, 94) and Canberra (821, 165)
+Power line between Adelaide (581, 174) and Alice Springs (474, 469)
+Power line between Alice Springs (474, 469) and Darwin (406, 736)
+Power line between Alice Springs (474, 469) and Perth (65, 254)

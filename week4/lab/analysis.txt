@@ -1,0 +1,43 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of either:
+  - n, where n is the number of nodes in the tree, or
+  - h, where h is the height of the tree
+
+=================
+  bstNumLeaves
+=================
+
+- Worst case time complexity: O(n)
+
+- Explanation: A worst case time complexity of searching of number of leaves would be when a tree is completely out of balance in ascending or reversed order, 
+any other cases would not result in a time complexity higher than this, no matter how many traversal there is.
+
+=================
+    bstRange
+=================
+
+- Worst case time complexity: O(h)
+
+- Explanation: Searching for range is basically searching for two leaves that are left most and right most, The worse case time complexity of this is when a tree is 
+in ascending or descending order, which result in a time complexity of n - 1, since it is going from root node all the way to leaves.
+
+=================
+ bstDeleteLeaves
+=================
+
+- Worst case time complexity: O(n - 1)
+
+- Explanation: The worst case time complexity of deleting leaves is actually the same as average case, where all nodes in a tree is traversed, resulting a time complexity of n - 1
+
+=================
+  bstLevelOrder
+=================
+
+- Worst case time complexity: O(n)
+
+- Explanation: The worst case time complexity of level order tranversal is adding every node in the tree into the queue, removing and adding takes constant time, but there is n node to add,
+therefore result in a time complexity of O(n)
+
+
